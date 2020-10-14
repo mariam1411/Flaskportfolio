@@ -1,0 +1,44 @@
+ul {
+list-style-type:italic;
+margin: 0;
+padding: 0;
+}
+
+li {
+display: inline;
+
+  color: black;
+  padding: 8px 16px;
+  text-decoration: red;
+}
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+
+}
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+.main {
+background-color: none;
+width: 300px;
+margin: 0 auto;
+height: 50px;
+}
+p {
+text-align:center;
+}
+p.ridge { border-style: ridge;}
+div.static{
+position.static;
+border: 3px solid grey;
+}
